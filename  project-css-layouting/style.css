@@ -1,0 +1,65 @@
+    body {
+  font-family: 'Slabo 27px', serif;
+  background-image: url("img/back.png");
+  background-color: #FFF;
+  height: 100%;
+}
+
+#nav {
+  font-family:Arial;
+  font-size:20px;
+  padding:20px 20px;
+
+}
+#nav {
+  list-style:none;
+  height: 20px;
+  padding: 10px 10px;
+  margin:0px
+}
+#nav {
+  float:left;
+}
+
+#article-list{
+margin: 200px;
+padding:150px;
+text-align:inherit;
+background-color: #fff;
+}
+#logo{
+}
+h1 {
+  font-size: 50px;
+  text-align:center;
+}
+a {
+  color: #3366ff;
+  text-align: left;
+}
+p{
+  line-height: normal;
+}
+
+.header{
+    font-family:Arial;
+    font-size:30px;
+    color:#fff;
+    text-align:right;
+  }
+  .right {
+    display:inline-flex;
+    position: fixed;
+    text-align: right;
+    list-style:none;
+  }
+
+.footer
+{
+background-color:black;
+font-family:Arial;
+font-size:15px;
+color:#fff;
+padding:20px 20px 20px 20px;
+text-align:center;
+}
