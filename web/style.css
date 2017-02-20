@@ -1,64 +1,88 @@
-header{
-    background-color: #FFFFFF ;
-    width: 100%;
-    position:fixed;
-    top:0px;
-    left:0px;
-    right: 0px;
 
+  body {
+  	color: #765435;
+  	background-color: #765435;
+  	background-image: url("img/back.jpg");
+    width: auto;
+  	background-position:center;
+    background-size:cover;
+  	font-family: Georgia, Times, serif;
+  	line-height: 1.4em;
+  	margin: 0px;
+  }
+    header {
+    	height:250px;
+      	color: #989766;
+    }
+
+    footer {
+      color: #fff;
+    	background-color: #000000;
+    	height: 50px;
+      	padding: 5px 0px 5px 30px;
+        text-align: center;
+  }
+  nav {
+	color: #fff;
+	background-color: #000000;
+	height: 30px;
 }
-    body {
-  font-family: 'Slabo 27px', serif;
-  background-image: url("img/back.png");
-  background-color: #FFF;
-
+nav ul {
+	margin: 0px;
+	padding: 5px 0px 5px 30px;
+}
+nav li {
+	display: inline;
+	margin-right: 40px;
+}
+#container{
+  width: 730px;
+  margin: 0 auto;
 }
 
-nav {
-  font-family:Arial;
-  font-size:20px;
-  padding-right: 10px;
-  list-style:none;
-  height: 20px;
-  margin:0px
+
+  .inputsearch{
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -30px;
+  }
+  .separator{
+    width: 20%;
+    padding: px;
 }
 
-#article-list{
-margin: 200px;
-padding:150px;
-text-align:inherit;
-background-color: #fff;
-cursor: auto;
-}
+  }
+  .atas {
+    color: #354637;
+    text-align:left;
+  }
+  .right {
+    color: #fff;
+  }
 
-h1 {
-  font-size: 50px;
-  text-align:center;
-  margin: 60px;
+  #article-list {
+      	color: #FFF;
+  	overflow: auto;
+  	width: 100%;
+    text-align: center;
+  }
+
+  p {
+    color: #000000;
+    text-align: center;
+    padding: 20px 20px;
+    margin: auto;
+  }
+table {
+  margin:350px;
 }
 a {
-  color: #3366ff;
-  text-align: left;
+  color: #fff;
 }
-p{
-  line-height: normal;
-  padding-bottom:0px;
-}
-  .right {
-     margin: 0px;
-    display:inline-flex;;
-    position: fixed;
-    list-style:none;
-    text-transform: uppercase;
-    padding: 2px;
-        text-align: right;
-  }
-.footer
-{
-background-color:black;
-font-family:Arial;
-font-size:15px;
-color:#fff;
-padding:20px 20px 20px 20px;
-text-align:center;
+h1 {
+  color: #000000;
+  text-decoration:underline;
+  text-decoration-color: #000000;
+  height: 0px;
+  width: auto;
 }
