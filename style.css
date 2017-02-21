@@ -8,17 +8,7 @@
 #nav {
   font-family:Arial;
   font-size:20px;
-  padding:20px 20px;
-
-}
-#nav {
-  list-style:none;
-  height: 20px;
-  padding: 10px 10px;
-  margin:0px
-}
-#nav {
-  float:left;
+  float: right;
 }
 
 #article-list{
@@ -28,6 +18,8 @@ text-align:inherit;
 background-color: #fff;
 }
 #logo{
+  display: inline-block;
+  float: left;
 }
 h1 {
   font-size: 50px;
@@ -38,10 +30,13 @@ a {
   text-align: left;
 }
 p{
+  border: 1px: #000000;
   line-height: normal;
 }
 
 .header{
+  width: 100%;
+  position: fixed;
     font-family:Arial;
     font-size:30px;
     color:#fff;
@@ -49,7 +44,6 @@ p{
   }
   .right {
     display:inline-flex;
-    position: fixed;
     text-align: right;
     list-style:none;
   }
