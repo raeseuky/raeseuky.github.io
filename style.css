@@ -11,6 +11,8 @@
   	margin: 0px;
   }
     header {
+      position: fixed;
+      width: 100%;
     	height:250px;
       	color: #989766;
     }
@@ -55,6 +57,9 @@ nav li {
   .atas {
     color: #354637;
     text-align:left;
+  }
+  .title {
+    padding-top: 30px;
   }
   .right {
     color: #fff;
