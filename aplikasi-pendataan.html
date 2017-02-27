@@ -1,0 +1,39 @@
+<DOCTYPE Html>
+<html>
+</html>
+<head>
+<title>pendataan</TITLE>
+</head>
+<body>
+<script type="text/javascript">
+
+var data=[["","","","","","",""],
+["","","","","","",""],["","","","","","",""],
+["","","","","","",""],["","","","","","",""],
+["","","","","","",""],["","","","","","",""],
+["","","","","","",""],["","","","","","",""],
+["","","","","","",""]];
+jumlah=prompt("masukan jumlah yang anda inginkan");
+var i;
+for (i=0;i<jumlah;i++){
+  data[i][0]=prompt("masukan no id");
+data[i][1]=prompt("masukan nama");
+data[i][2]=prompt("masukan alamat");
+data[i][3]=prompt("masukan birth (DD-MM-YYYY)");
+data[i][4]=prompt("masukan golongan darah");
+data[i][5]=prompt("masukan tinggi badan (cm)");
+data[i][6]=prompt("masukan berat badan (kg)");
+  }
+    for(var i =0;i<data.length;i++) {
+   console.log("nomor id : " + data[i][0]);
+   console.log("nama lengkap : " + data[i][1]);
+   console.log("address : " + data[i][2]);
+     console.log("tanggal lahir : " + data[i][3]);
+    console.log("golongan darah : " + data[i][4]);
+    console.log("tinggi badan : " + data[i][5] + "(cm)");
+    console.log("berat badan : " + data[i][6] + "(kg)");
+    }
+
+     </script>
+  </body>
+  </html>
